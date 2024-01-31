@@ -1,0 +1,6 @@
+@WebApplication.New_HostAddress = https://localhost:7297
+
+GET {{WebApplication.New_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
